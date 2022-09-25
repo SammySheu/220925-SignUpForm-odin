@@ -1,0 +1,45 @@
+.wholePage{
+  display: flex;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+.picture{
+  height: auto;
+  width: 500px ;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+
+  width: 50%;
+  background-color: yellow;
+}
+h3{
+  width: 100%;
+}
+.intro{
+  background-color: orange;
+  height: 33%;
+  padding: 20px;
+}
+
+.form{
+  display: flex;
+  height: 33%;
+  padding: 20px;
+  background-color: green;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.notice{
+  height: 33%;
+  padding: 20px;
+}
